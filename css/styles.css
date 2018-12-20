@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;    
+}
+p {
+    font-size: 1.125rem;
+}
+.bar {
+    min-height: 1.5rem;
+    background-color: #000000;
+}
+.main {
+    height: 80vh;
+    background: url('../img/bg_main_4.jpeg') center / cover;
+    color: white;
+    }
+.logo-mobile {
+    height: 2.9rem;
+}
+#img-logo {
+    /* margin: 0 1.875rem; */
+    height: 5rem;
+}
+.icon {
+    margin-left: 15px;
+}
+.title {
+    font-size: 4rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+}
+.subtitle {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+}
+.dominio {
+    background-color: rgba(0, 0, 0, .6);   
+    padding: 5px 5px;
+    font-family: 'Merienda', cursive;
+}
+/*----------Services---------*/
+.services {
+    padding: 3rem 0;
+}
+.services h1 {
+    margin-bottom: 3rem;
+}
+.bg_1 {
+    background: #217C8E;
+}
+.bg_2 {
+    background: #D9A750;
+}
+.bg_3 {
+    background: #DF84F9;
+}
+
+/*----------Designers---------*/
+.designers {
+    padding: 1rem 0;
+    background: #FCFCFC;
+}
+.designers h1 {
+    margin-bottom: 3rem;
+}
+.designers p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.designers h4 {
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.designers_group > div {
+    min-height: 4rem;
+    background: rgba(0, 0, 0, .8);   
+    padding: 10px;
+}
+.img {
+    height: 8rem;
+    width: 8rem;
+}
+.designer_hv {
+    padding-left: 5px;
+}
+.bg_carla {
+    background: url('../img/carla.jpg') center / cover;
+    filter: grayscale(100%);
+}
+.bg_mateo {
+    background: url('../img/mateo.jpg') center / cover;
+    filter: grayscale(100%);
+}
+.bg_claudia {
+    background: url('../img/claudia.jpg') center / cover;
+    filter: grayscale(100%);
+}
+
+/*----------Buy---------*/
+.buy {
+    background: #FCFCFC;
+}
+form {
+    background: rgba(0, 0, 0, .8);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin: 2rem 1rem;
+    min-width: 90%;
+}
+#pay input {
+    max-width: 30%;
+}
+#pay select {
+    max-width: 30%;
+}
+.metodo_pago {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background-color: transparent;
+    padding: 0.75rem;
+    height: auto;
+    color: #FFF;    
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: gainsboro;
+}
+
+
+footer {
+    min-height: 1.5rem;
+    padding: 10px 0;
+}
+/*----------Responsive---------*/
+@media (max-width: 48rem) {
+    .title {
+        font-size: 3rem;
+    }
+    .nav-link {
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #pay input {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    #pay select {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 62rem) and (orientation: landscape) {
+
+    /* 992px */
+
+}
+
+@media (min-width: 62rem) {
+
+}
